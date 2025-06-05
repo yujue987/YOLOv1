@@ -1,10 +1,10 @@
-import os  # 操作系统接口模块，用于文件路径操作
-import xmltodict  # XML解析库，用于解析标注文件
-import torch  # PyTorch深度学习框架
-import numpy as np  # 数值计算库
-from PIL import Image  # 图像处理库
-from torch.utils.data import Dataset  # PyTorch数据集基类
-from typing import List  # 类型提示支持
+import os  
+import xmltodict  
+import torch  
+import numpy as np  
+from PIL import Image  
+from torch.utils.data import Dataset  
+from typing import List 
 
 
 class Dataset(Dataset):
